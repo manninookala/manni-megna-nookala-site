@@ -47,7 +47,7 @@ export default function Contact() {
             </div>
             <div className="mt-6 flex gap-3">
               <motion.a
-                href="https://linkedin.com/in/manninookala"
+                href="https://www.linkedin.com/in/manni-megna-nookala/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-700 cursor-pointer"
@@ -67,7 +67,7 @@ export default function Contact() {
                 <Github className="h-5 w-5 text-slate-700 dark:text-slate-300" />
               </motion.a>
               <motion.a
-                href="https://twitter.com/yourhandle"
+                href="https://x.com/i_am_megna"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-700 cursor-pointer"

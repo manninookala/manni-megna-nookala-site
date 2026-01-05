@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, Download, Sparkles } from 'lucide-react'
+import { ArrowRight, Download, Sparkles, Linkedin, Github, Twitter } from 'lucide-react'
 
 export default function Hero() {
   return (
@@ -67,7 +67,7 @@ export default function Hero() {
             </motion.a>
 
             <motion.a
-              href="/Manni_Megna_Nookala_Resume.pdf"
+              href="public\Manni_Megna_Nookala (1).pdf"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-2 text-sm font-semibold text-slate-800 hover:border-violet-300 hover:text-violet-600 hover:bg-violet-50 transition dark:border-slate-500/60 dark:text-slate-100 dark:hover:text-violet-200 dark:hover:bg-slate-900/40"
@@ -78,6 +78,7 @@ export default function Hero() {
               Download Resume
             </motion.a>
           </div>
+          
         </motion.div>
 
         {/* Right: portrait image only */}
