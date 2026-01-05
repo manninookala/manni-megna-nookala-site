@@ -9,26 +9,26 @@ import { useState } from 'react'
 // These use the local SVG paths from your downloaded files
 // Move your files to /public/skills/ for these paths to work
 const scrollingSkills = [
-  { name: "React", icon: "src/images/skills/react-svgrepo-com.svg" },
-  { name: "Node.js", icon: "src/images/skills/node-svgrepo-com.svg" },
-  { name: "npm", icon: "src/images/skills/npm-svgrepo-com.svg" },
-  { name: "MongoDB", icon: "src/images/skills/mongodb-svgrepo-com.svg" },
-  { name: "Express", icon: "src/images/skills/express-svgrepo-com.svg" },
-  { name: "Tailwind", icon: "src/images/skills/tailwind-svgrepo-com.svg" },
-  { name: "Python", icon: "src/images/skills/python-svgrepo-com.svg" },
-  { name: "JavaScript", icon: "src/images/skills/javascript-svgrepo-com.svg" },
-  { name: "Angular", icon: "src/images/skills/angular-icon-svgrepo-com.svg" },
-  { name: "PostgreSQL", icon: "src/images/skills/postgresql-logo-svgrepo-com.svg" },
-  { name: "HTML5", icon: "src/images/skills/html-5-svgrepo-com.svg" },
-  { name: "CSS3", icon: "src/images/skills/css-3-svgrepo-com.svg" },
-  { name: "GitHub", icon: "src/images/skills/github-142-svgrepo-com.svg" },
-  { name: "Git", icon: "src/images/skills/git-svgrepo-com.svg" },
-  { name: "Postman", icon: "src/images/skills/postman-icon-svgrepo-com.svg" },
-  { name: "VS Code", icon: "src/images/skills/vscode3-svgrepo-com.svg" },
-  { name: "Numpy", icon: "src/images/skills/numpy-svgrepo-com.svg" },
-  { name: "Pandas", icon: "src/images/skills/pandas-svgrepo-com.svg" },
-  { name: "Cucumber", icon: "src/images/skills/cucumber-svgrepo-com.svg" },
-  { name: "Playwright", icon: "src/images/skills/theatre-drama-svgrepo-com.svg" }
+  { name: "React", icon: "/assets/skills/react-svgrepo-com.svg" },
+  { name: "Node.js", icon: "/assets/skills/node-svgrepo-com.svg" },
+  { name: "npm", icon: "/assets/skills/npm-svgrepo-com.svg" },
+  { name: "MongoDB", icon: "/assets/skills/mongodb-svgrepo-com.svg" },
+  { name: "Express", icon: "/assets/skills/express-svgrepo-com.svg" },
+  { name: "Tailwind", icon: "/assets/skills/tailwind-svgrepo-com.svg" },
+  { name: "Python", icon: "/assets/skills/python-svgrepo-com.svg" },
+  { name: "JavaScript", icon: "/assets/skills/javascript-svgrepo-com.svg" },
+  { name: "Angular", icon: "/assets/skills/angular-icon-svgrepo-com.svg" },
+  { name: "PostgreSQL", icon: "/assets/skills/postgresql-logo-svgrepo-com.svg" },
+  { name: "HTML5", icon: "/assets/skills/html-5-svgrepo-com.svg" },
+  { name: "CSS3", icon: "/assets/skills/css-3-svgrepo-com.svg" },
+  { name: "GitHub", icon: "/assets/skills/github-142-svgrepo-com.svg" },
+  { name: "Git", icon: "/assets/skills/git-svgrepo-com.svg" },
+  { name: "Postman", icon: "/assets/skills/postman-icon-svgrepo-com.svg" },
+  { name: "VS Code", icon: "/assets/skills/vscode3-svgrepo-com.svg" },
+  { name: "Numpy", icon: "/assets/skills/numpy-svgrepo-com.svg" },
+  { name: "Pandas", icon: "/assets/skills/pandas-svgrepo-com.svg" },
+  { name: "Cucumber", icon: "/assets/skills/cucumber-svgrepo-com.svg" },
+  { name: "Playwright", icon: "/assets/skills/theatre-drama-svgrepo-com.svg" }
 ];
 
 const categories = [

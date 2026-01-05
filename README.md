@@ -1,7 +1,7 @@
 # Manni Megna Nookala - Portfolio
 
 <video width="800" height="400" controls>
-  <source src="./src/images/f997d19bd9b3440ca39a7c8a2b5b982d.mp4" type="video/mp4">
+  <source src="./public/assets/f997d19bd9b3440ca39a7c8a2b5b982d.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

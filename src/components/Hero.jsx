@@ -94,7 +94,7 @@ export default function Hero() {
           <div className="relative h-80 w-80 mx-auto">
             <div className="overflow-hidden rounded-full border-[3px] border-violet-300/80 shadow-[0_0_60px_rgba(139,92,246,0.35)] h-full w-full dark:shadow-[0_0_60px_rgba(139,92,246,0.6)]">
               <img
-                src="src\images\1759123387755.jfif"
+                src="/assets/1759123387755.jfif"
                 alt="Developer portrait"
                 className="h-full w-full object-cover"
               />

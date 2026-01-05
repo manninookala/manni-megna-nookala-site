@@ -38,7 +38,7 @@ export default function About() {
                 <div className="absolute -inset-1 rounded-full bg-cyan-400/20 dark:bg-cyan-500/20 blur-sm" />
                 <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-700">
                   <img
-                    src="src\images\pega-light.png"
+                    src="/assets/pega-light.png"
                     alt="PEGA"
                     className="h-11 w-11 object-contain dark:invert"
                   />

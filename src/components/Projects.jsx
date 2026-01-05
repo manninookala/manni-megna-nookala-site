@@ -2,28 +2,28 @@ import { motion } from 'framer-motion'
 
 const projects = [
   {
-    image: "src/images/projects/images.jfif",
+    image: "/assets/projects/images.jfif",
     title: "SwifterCart API – Streamlining Shopping Experience",
     description: "Built a RESTful API for a shopping cart system, handling cart management, discounts, and secure checkout flows.",
     tech: ["Node.js", "Express", "JavaScript", "RESTful APIs"],
     demoUrl: "https://bd-3-assignment.vercel.app/"
   },
   {
-    image: "src/images/projects/95f08350-c081-4a89-987f-213bbbb675cd.png",
+    image: "/assets/projects/95f08350-c081-4a89-987f-213bbbb675cd.png",
     title: "Omnifood - Food Delivery Website",
     description: "The smart 365 days per meal food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.",
     tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     demoUrl: "https://omnifood-website-project.netlify.app/"
   },
   {
-    image: "src/images/projects/kanban-board-example.jpeg",
+    image: "/assets/projects/kanban-board-example.jpeg",
     title: "TaskFlow — Organize tasks. Advance with clarity.",
     description: "TaskFlow enables users to manage tasks effortlessly using a minimal Kanban workflow that keeps priorities clear and progress visible at all times.",
     tech: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://project-kanban-board.netlify.app/"
   },
   {
-    image: "src/images/projects/feat-customer-reviews-w740h370.webp",
+    image: "/assets/projects/feat-customer-reviews-w740h370.webp",
     title: "Amazon Real-Time Sentiment Analysis",
     description: "Developed an NLP pipeline to analyze Amazon product reviews in real time, improving sentiment classification accuracy.",
     tech: ["Python", "NLP", "LSTM", "REST API"],
