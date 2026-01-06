@@ -32,7 +32,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-sm font-semibold text-slate-900 dark:text-white">Email</div>
-                  <div className="text-sm text-slate-700 dark:text-slate-300">megnanookala@gmail.com</div>
+                  <div className="text-sm text-slate-700 dark:text-slate-300">megna.nookala@gmail.com</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
